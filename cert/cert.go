@@ -2,7 +2,7 @@
 go build -o verifying_digital_certificate verifying_the_Validity_Period_of_a_Digital_Certificate.go
 ./verifying_digital_certificate
 */
-package main
+package cert
 
 import (
 	"crypto/x509"
